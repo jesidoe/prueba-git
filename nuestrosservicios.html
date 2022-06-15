@@ -5,6 +5,7 @@
         <link rel="shortcut icon" href="imagenes/faviconuno.ico" type="image/x-icon">
         <link rel="icon" href="imagenes/faviconuno.ico" type="image/x-icon">
 
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="estilos.css">
     </head>    
     <body>
@@ -20,7 +21,6 @@
         </nav>   
 
         <main>
-            
             <p class="texto">-Contamos con el servicio PUERTA A PUERTA:
             Es decir, buscamos a tu mascota en la direccion que nos digas y viajamos juntos hasta nuestro hotel CanCat.
             Cuando finaliza su estadia si asi lo preferis, lo llevamos hasta tu casa. <br>
@@ -34,38 +34,56 @@
             -Contamos con sectores apartados para los huespedes donde podran descansar o comer sin la obligacion de hacerlo en manada si no estan acostumbrados <br>
             -El sector de gatos esta distante al sector de perros <br>
             -Limpieza constante en areas comunes <br>
-            -Check-in: 10 am, Check-out: 20 pm 
-
-
+            -Check-in: 10 am, Check-out: 20 pm <br>
             </p>
-            <section class="descripcion">
-            <img src="imagenes/habitacion.jpg" alt="habitacion">
-            </section>
-            <img src="imagenes/habitacionuno.jpg" alt="habitacionhotel">
-            <section class="descripcion">
-            <img src="imagenes/habitaciondos.jpg" alt="habitaciones">
-            </section>
-            <img src="imagenes/habitaciontres.jpg" alt="habitaciontres">
-            <section class="descripcion"> 
-            <img src="imagenes/guarderia.jpg" alt="jugando">
-            </section>
-            <img src="imagenes/guarderiados.jpg" alt="diversion">
-
-
-
-
-        </main>
-        
+       
+            <div id="carouselExampleControls" class="carousel slide w-50 d-flex justify-content-center m-auto"  data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./imagenes/habitacion.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagenes/habitaciondos.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagenes/habitaciontres.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagenes/habitacionuno.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagenes/guarderia.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagenes/guarderiados.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </main>
+      
         <hr>
-        <footer>
-        <h4><p>Te gustaria saber mas?</p>
-        <p>E-mail:hotelcancat@gmail.com</p>
-        <p>Tel.:011-1158996004</p>
-        <p>Ubicacion: Fernando Abramo 1698
-        La Reja - Pcia. de Bs.As. </p>
-        </h4>
- 
-        </footer>
+        <footer class="grid-explicito">
+          <section class="section">
+              <div class="bg-success p-0 text-dark">
+              <h4><p>Te gustaria saber mas?</p></h4></div>
+              <div class="bg-success p-0 text-dark bg-opacity-75"><p>E-mail:hotelcancat@gmail.com</p></div>
+              <div class="bg-success p-0 text-dark bg-opacity-50"><p>Tel.:011-1158996004</p></div>
+              <div class="bg-success p-0 text-dark bg-opacity-25"><p>Ubicacion: Fernando Abramo 1698-La Reja - Pcia. de Bs.As. </p></div>
+              
+          </section>
+      </footer>
+
+
+        <script src="js/bootstrap.js"></script>
     </body>        
                   
   </html>      
