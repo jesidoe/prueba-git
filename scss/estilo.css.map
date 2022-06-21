@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACEI,AACQ,IADJ,CACI,EAAE,CAAA;EACE,KAAK,ECJE,KAAK;CDKnB;;AAII,AAAD,wBAAO,CAAA;EACH,KAAK,EAAE,OAAe;CACzB",
+    "sources": [
+        "estilo.scss",
+        "_quienessomos.scss",
+        "_variables.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "estilo.css"
+}

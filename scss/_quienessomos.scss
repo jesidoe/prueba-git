@@ -1,0 +1,13 @@
+@import "./variables";
+
+    main{
+            h2{
+                color:$color-h2-quienessomos;
+        }
+       
+        }
+        .main-quienessomos{
+            &-texto{
+                color: rgb(59, 57, 57);
+            }
+        }
