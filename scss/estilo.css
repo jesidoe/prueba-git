@@ -1,8 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);
+  font-family: 'Grape Nuts';
+  margin: 2%;
+}
+
 main h2 {
   color: beige;
 }
 
 .main-quienessomos-texto {
   color: #3b3939;
+}
+
+a {
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+img {
+  width: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 5px black;
+          box-shadow: 2px 2px 5px black;
+}
+
+.texto {
+  font-family: 'Grape Nuts';
+}
+
+.centrado {
+  text-align: center;
+}
+
+.grid-quieness {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: none;
+      grid-template-rows: none;
+}
+
+footer {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section {
+  font-size: x-small;
+}
+
+.facebook {
+  background-color: rgba(0, 0, 255, 0.74);
+}
+
+.instagram {
+  background-color: white;
+  color: rgba(0, 0, 255, 0.74);
+}
+
+.twitter {
+  background-color: rgba(0, 0, 255, 0.74);
 }
 /*# sourceMappingURL=estilo.css.map */

@@ -1,2 +1,17 @@
 @import "./quienessomos";
 @import "./variables";
+
+$contactanos:(
+    "blue":rgba(0, 0, 255, 0.74),
+    "white":rgb(255, 255, 255),
+   );
+    .facebook{
+    background-color:map-get($contactanos , "blue");
+    }
+    .instagram{
+    background-color:map-get($contactanos , "white");
+    color: map-get($contactanos , "blue") ;
+    }
+    .twitter{
+    background-color:map-get($contactanos , "blue");
+    }

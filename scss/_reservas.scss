@@ -13,18 +13,6 @@ body{
 
 }
 
-main{
-    h2{
-    color:$color-h2-quienessomos;
-}
-       
-}
-.main-quienessomos{
-    &-texto{
-    color: rgb(59, 57, 57);
-}
-}
-
 a{
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
@@ -34,35 +22,36 @@ a{
     font-weight: bold;
 }
 
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style:none; 
+    font-size: x-large;           
+}
+
+li :hover{
+    border-left: solid 10px green;
+    cursor:pointer;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: orange;
+}
+
 p{
     font-weight: bold;
     font-size: 150%;   
 }
 
-img{
-    width: 50%;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px black;
-}
-
-.texto{
-    font-family: 'Grape Nuts';
-}
-
-.centrado{
+.reserva{
     text-align: center;
 }
-.grid-quieness{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:none;
+
+.section{
+    font-size: x-small;
 }
 
 footer{    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
      
-}
-
-.section{
-    font-size: x-small;
 }
