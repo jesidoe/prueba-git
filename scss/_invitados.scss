@@ -55,11 +55,21 @@ img{
     
   }
 
-  .grid-container {
+.texto {
+    animation-name: texto ;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.grid-container {
     display: grid;
     grid-template-columns: 30% auto 30%;
     grid-template-rows: 30% 400px 400px 20vh;
     justify-content: center;
+}
+
+.section{
+    font-size: x-small;
 }
 
 footer{    
@@ -67,6 +77,4 @@ footer{
      
 }
 
-.section{
-    font-size: x-small;
-}
+
