@@ -58,6 +58,13 @@ img{
     grid-template-rows:none;
 }
 
+.iconos{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    }
+
 footer{    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
      

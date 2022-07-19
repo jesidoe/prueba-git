@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>    
-        <title>HOTEL CanCat</title>  
-        <link rel="shortcut icon" href="imagenes/faviconuno.ico" type="image/x-icon">
-        <link rel="icon" href="imagenes/faviconuno.ico" type="image/x-icon">
 
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="estilos.css">
-        <link rel="stylesheet" href="./scss/estilo.css">
-        <meta name="description" content="reserva el mejor lugar para tus mascotas, comunicate con nosotros de lunes a viernes de 8 a 20hs y sabados de 8 a 18hs">
-        <meta name="keywords"  content="reservas, contacto, turnos">
-    </head>    
-    <body>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./nuestrosservicios.html">Nuestros Servicios</a></li>
-                <li><a href="./nuestroshuespedes.html">Nuestros Huespedes</a></li>
-                <li><a href="./invitados.html">Invitados</a></li>
-                <li><a href="./quienessomos.html">Quienes Somos</a></li>         
-            </ul>
-        </nav> 
-      
-        <main>
-            <p class="reserva shadow-lg p-8 mb-5 bg-gradient rounded">¿Queres hacer una reserva?</div></p>
-            <form action="formulario">             
-                <p class="datos"><label for="nombre">Nombre del huesped:</label>
+<head>
+    <title>HOTEL CanCat</title>
+    <link rel="shortcut icon" href="imagenes/faviconuno.ico" type="image/x-icon">
+    <link rel="icon" href="imagenes/faviconuno.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./scss/estilo.css">
+    <meta name="description"
+        content="reserva el mejor lugar para tus mascotas, comunicate con nosotros de lunes a viernes de 8 a 20hs y sabados de 8 a 18hs">
+    <meta name="keywords" content="reservas, contacto, turnos">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./nuestrosservicios.html">Nuestros Servicios</a></li>
+            <li><a href="./nuestroshuespedes.html">Nuestros Huespedes</a></li>
+            <li><a href="./invitados.html">Invitados</a></li>
+            <li><a href="./quienessomos.html">Quienes Somos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <p class="reserva shadow-lg p-8 mb-5 bg-gradient rounded">¿Queres hacer una reserva?</div>
+        </p>
+        <form action="formulario">
+            <p class="datos"><label for="nombre">Nombre del huesped:</label>
                 <input type="text" name="nombre"><br>
                 <label for="apellido">Apellido del Huesped:</label>
                 <input type="text" apellido="apellido"><br>
@@ -36,41 +38,57 @@
                 <label for="ingreso">Fecha de Ingreso:</label>
                 <input type="text" fecha="ingreso"><br>
                 <label for="salida">Fecha de salida:</label>
-                <input type="text" name="salida"><br>   
-                <input type="submit" value="enviar"/>
-                <input type="reset" value="borrar"/> </p>
-                
-                <p class="reserva shadow-lg p-8 mb-5 bg-gradient rounded">Si tu mascota toma medicamentos o necesita cuidados especiales, o si queres solicitar el servicio puerta a puerta escribinos...</div></p>
-                <p><label for="escribinos"></label> <br>
+                <input type="text" name="salida"><br>
+                <input type="submit" value="enviar" />
+                <input type="reset" value="borrar" />
+            </p>
+
+            <p class="reserva shadow-lg p-8 mb-5 bg-gradient rounded">Si tu mascota toma medicamentos o necesita
+                cuidados especiales, o si queres solicitar el servicio puerta a puerta escribinos...</div>
+            </p>
+            <p><label for="escribinos"></label> <br>
                 <textarea name="escribinos" cols="30" rows="10"></textarea>
-                <input type="submit" value="enviar"/> </p>
-        </main>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">tu E-mail</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <button type="button" class="mb-3">enviar</button>
-       
-          <hr>
-          <nav>
-            <div class="boton2">
-                <button type="submit"><h3>facebook</h3></button>
-                <button type="submit"><h4>instagram</h4></button>
-                <button type="submit"><h5>twitter</h5></button>
+                <input type="submit" value="enviar" />
+            </p>
+    </main>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">tu E-mail</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <button type="button" class="mb-3">enviar</button>
+
+    <hr>
+    <nav>
+        <div class="iconos">
+            <h4><a href="https://www.facebook.com" target="_blank"><img src="./imagenes/perris/iconos/facebook.png"
+                        alt="facebook"></a></h4>
+            <h4><a href="https://www.instagram.com" target="_blank"><img src="./imagenes/perris/iconos/instagram.png"
+                        alt="instagram"></a></h4>
+            <h4><a href="https://www.twitter.com" target="_blank"><img src="./imagenes/perris/iconos/twitter.png"
+                        alt="twitter"></a>
+            </h4>
+        </div>
+    </nav>
+
+    <footer class="grid-explicito">
+        <section class="section">
+            <div class="bg-success p-0 text-dark">
+                <p>Te gustaria saber mas?</p>
             </div>
-          </nav>
-          
-        <footer class="grid-explicito">
-            <section class="section">
-                <div class="bg-success p-0 text-dark">
-                <p>Te gustaria saber mas?</p></div>
-                <div class="bg-success p-0 text-dark bg-opacity-75"><p>E-mail:hotelcancat@gmail.com</p></div>
-                <div class="bg-success p-0 text-dark bg-opacity-50"><p>Tel.:011-1158996004</p></div>
-                <div class="bg-success p-0 text-dark bg-opacity-25"><p>Ubicacion: Fernando Abramo 1698-La Reja - Pcia. de Bs.As. </p></div>
-                
-            </section>
-        </footer>
-        
-        <script src="js/bootstrap.js"></script>
-    </body>
+            <div class="bg-success p-0 text-dark bg-opacity-75">
+                <p>E-mail:hotelcancat@gmail.com</p>
+            </div>
+            <div class="bg-success p-0 text-dark bg-opacity-50">
+                <p>Tel.:011-1158996004</p>
+            </div>
+            <div class="bg-success p-0 text-dark bg-opacity-25">
+                <p>Ubicacion: Fernando Abramo 1698-La Reja - Pcia. de Bs.As. </p>
+            </div>
+
+        </section>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
 </html>
