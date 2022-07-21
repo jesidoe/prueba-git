@@ -27,21 +27,36 @@
         <p class="reserva shadow-lg p-8 mb-5 bg-gradient rounded">¿Queres hacer una reserva?</div>
         </p>
         <form action="formulario">
-            <p class="datos"><label for="nombre">Nombre del huesped:</label>
-                <input type="text" name="nombre"><br>
+            <div class="datos">
+                <div class="input-container">
+                   <label for="nombre">Nombre del huesped:</label>
+                <input type="text" name="nombre">
+               </div>
+               <div class="input-container">
                 <label for="apellido">Apellido del Huesped:</label>
-                <input type="text" apellido="apellido"><br>
+                <input type="text" apellido="apellido">
+               </div>
+               <div class="input-container">
                 <label for="edad">Edad del huesped:</label>
-                <input type="text" edad="edad"><br>
+                <input type="text" edad="edad">
+               </div>
+               <div class="input-container">
                 <label for="sexo">Sexo del huesped:</label>
-                <input type="text" sexo="sexo"><br>
+                <input type="text" sexo="sexo">
+               </div> 
+               <div class="input-container">
                 <label for="ingreso">Fecha de Ingreso:</label>
-                <input type="text" fecha="ingreso"><br>
+                <input type="text" fecha="ingreso">
+               </div> 
+               <div class="input-container">
                 <label for="salida">Fecha de salida:</label>
-                <input type="text" name="salida"><br>
-                <input type="submit" value="enviar" />
+                <input type="text" name="salida">
+               </div>
+               <div class="input-container"><input type="submit" value="enviar" />
                 <input type="reset" value="borrar" />
-            </p>
+               </div>
+                
+            </div>
 
             <p class="reserva shadow-lg p-8 mb-5 bg-gradient rounded">Si tu mascota toma medicamentos o necesita
                 cuidados especiales, o si queres solicitar el servicio puerta a puerta escribinos...</div>

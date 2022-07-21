@@ -309,16 +309,16 @@ p {
   font-size: 150%;
 }
 
-img {
-  width: 50%;
+.img {
+  width: 45%;
   border-radius: 50%;
   -webkit-box-shadow: 2px 2px 5px black;
           box-shadow: 2px 2px 5px black;
 }
 
 .fotito {
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 95%;
 }
 
 .texto {
@@ -359,6 +359,16 @@ img {
 
 footer {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
 }
 
 * {
@@ -406,8 +416,8 @@ p {
   font-size: 150%;
 }
 
-img {
-  width: 50%;
+.img-nuestrosHuespedes {
+  width: 45%;
   border-radius: 50%;
   -webkit-box-shadow: 2px 2px 5px black;
           box-shadow: 2px 2px 5px black;
@@ -426,6 +436,7 @@ img {
           justify-content: space-evenly;
   -ms-flex-direction: row;
       flex-direction: row;
+  gap: 10px;
 }
 
 .grid-explicito {
@@ -435,6 +446,8 @@ img {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
+  margin: 20px;
+  padding: 20px;
 }
 
 .iconos {
@@ -595,6 +608,10 @@ p {
 
 .reserva {
   text-align: center;
+}
+
+.datos {
+  width: 31%;
 }
 
 .section {

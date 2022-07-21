@@ -43,8 +43,8 @@ p{
     font-size: 150%;   
 }
 
-img{
-    width: 50%;
+.img-nuestrosHuespedes{
+    width: 45%;
     border-radius: 50%;
     box-shadow: 2px 2px 5px black;
 }
@@ -54,12 +54,15 @@ img{
     flex-flow: row wrap;
     justify-content: space-evenly;
     flex-direction:row;
+    gap: 10px;
 }
 
 .grid-explicito{
     display: grid;
     grid-template-columns:1fr;
     grid-template-rows: 1fr; 
+    margin:20px;
+    padding: 20px;
     }
 
     .iconos{
